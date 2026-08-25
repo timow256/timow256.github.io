@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Engineering portfolio of Timotius William Wuisang — Engineering Physics, reliability, data, R&D, and IoT." />
+  <title>Timotius William Wuisang | Engineering Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">TWW</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">◐</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow" id="heroEyebrow"></p>
+          <h1 id="heroName"></h1>
+          <h2 id="heroTitle"></h2>
+          <p class="hero-copy" id="heroIntro"></p>
+          <div class="cta-row" id="heroActions"></div>
+          <div class="meta-row" id="heroMeta"></div>
+        </div>
+        <aside class="hero-panel" aria-label="Focus areas">
+          <div class="profile-photo-wrap">
+            <img
+            id="profilePhoto"
+            class="profile-photo"
+            src=""
+            alt="Portrait of Timotius William Wuisang"
+            />
+          </div>
+          <p class="panel-label">Current focus</p>
+          <div id="focusList" class="focus-list"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section section-muted">
+      <div class="container two-col">
+        <div>
+          <p class="section-kicker">Profile</p>
+          <h2>Engineering problems, approached with data.</h2>
+        </div>
+        <div>
+          <p id="aboutText" class="about-copy"></p>
+          <div id="educationCard" class="education-card"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Selected work</p>
+            <h2>Projects</h2>
+          </div>
+          <p class="section-note"></p>
+        </div>
+        <div id="projectGrid" class="project-grid"></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-muted">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Experience</p>
+            <h2>Research, engineering & teaching</h2>
+          </div>
+        </div>
+        <div id="experienceList" class="timeline"></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Capabilities</p>
+            <h2>Technical toolkit</h2>
+          </div>
+        </div>
+        <div id="skillsGrid" class="skills-grid"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>Interested in applied data analytics, IoT automation, or R&D opportunities.</h2>
+          <p id="contactText"></p>
+        </div>
+        <div class="contact-actions" id="contactActions"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <span id="footerName"></span>
+      <span></span>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
