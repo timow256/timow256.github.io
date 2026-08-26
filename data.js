@@ -21,7 +21,7 @@ const PORTFOLIO = {
     eyebrow: "Engineering Physics • Data-Driven Engineering",
     title: "R&D, Experimental Engineering, Data & Analytics",
     intro:
-      "Engineering Physics graduate candidate from Universitas Gadjah Mada with hands-on experience in experimental testing, engineering research, process monitoring, data analysis, IoT prototyping, and technical problem solving.",
+      "Engineering Physics fresh graduate from Universitas Gadjah Mada with hands-on experience in experimental testing, engineering research, process monitoring, data analysis, IoT prototyping, and technical problem solving.",
     about:
       "My work sits at the intersection of physical systems and data. I have worked on material characterization, thermal and optical testing, microcontroller-based automation, sensor integration, Python-based analysis, and engineering documentation. I am especially interested in applied data analytics, IoT automation, and R&D roles where technical decisions are supported by evidence.",
     location: "Indonesia",
