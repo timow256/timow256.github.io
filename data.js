@@ -175,6 +175,29 @@ const PORTFOLIO = {
     }
   ],
 
+  community: [
+    {
+      period: "Jun–Aug 2025",
+      role: "KKN-PPM Community Empowerment",
+      organization: "Team \u201CBakti Seyegan\u201D \u2022 Mandungan I, Seyegan, Sleman, Yogyakarta",
+      icon: "community",
+      bullets: [
+        "Led and contributed to community digitalization initiatives, including the inventory, validation, and documentation of local food resources as well as the development of a structured digital population administration system for Mandungan I.",
+        "Developed community-oriented educational materials, including a Strategic Planting Guidebook for the Women Farmers Group (KWT) and visual waste-management campaigns to support food security and environmental awareness.",
+        "Designed and facilitated interactive science activities for elementary school students while collaborating with local residents, village officials, KWT members, and schools to ensure programs addressed local needs and supported sustainable community development."
+      ]
+    },
+    {
+      period: "Sep 2025–present",
+      role: "Freelance Mathematics Private Tutor",
+      organization: "Online • SD, SMP & SMA students",
+      icon: "tutor",
+      bullets: [
+        "Delivered personalized online mathematics tutoring for elementary, junior high, and high school students, focusing on strengthening fundamental algebra skills and improving academic performance through customized lesson plans."
+      ]
+    }
+  ],
+
   skills: {
     "Engineering & Research": [
       "Experimental Testing", "Process Monitoring", "Material Characterization", "Heat Transfer",

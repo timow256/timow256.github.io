@@ -185,6 +185,23 @@ summary { cursor: pointer; font-weight: 750; }
 .timeline-org { color: var(--muted); font-weight: 650; }
 .timeline-item ul { color: var(--muted); padding-left: 18px; margin-bottom: 0; }
 
+.community-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+.community-card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 28px; box-shadow: var(--shadow); position: relative;
+}
+.community-icon {
+  width: 48px; height: 48px; border-radius: 14px; display: grid; place-items: center;
+  background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--accent); margin-bottom: 18px;
+}
+.community-icon svg { width: 24px; height: 24px; }
+.community-meta {
+  color: var(--accent); font-weight: 800; font-size: 0.82rem;
+  text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px;
+}
+.community-card h3 { margin: 4px 0 3px; font-size: 1.2rem; line-height: 1.25; letter-spacing: -0.025em; }
+.community-card ul { color: var(--muted); padding-left: 18px; margin: 14px 0 0; }
+
 .skills-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
 .skill-card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 22px; }
 .skill-card h3 { margin: 0 0 14px; }
@@ -202,6 +219,7 @@ footer { padding: 34px 0 50px; color: var(--muted); font-size: 0.86rem; }
   .hero-grid, .two-col, .contact-card { grid-template-columns: 1fr; }
   .hero { padding-top: 78px; }
   .project-grid { grid-template-columns: 1fr; }
+  .community-grid { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .section { padding: 68px 0; }
   .section-head { align-items: start; flex-direction: column; }
