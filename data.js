@@ -180,7 +180,9 @@ const PORTFOLIO = {
       period: "Jun–Aug 2025",
       role: "KKN-PPM Community Empowerment",
       organization: "Team \u201CBakti Seyegan\u201D \u2022 Mandungan I, Seyegan, Sleman, Yogyakarta",
+      image: "assets/images/KKN.png",
       icon: "community",
+      softSkills: ["Leadership", "Community Engagement", "Communication", "Collaboration", "Adaptability"],
       bullets: [
         "Led and contributed to community digitalization initiatives, including the inventory, validation, and documentation of local food resources as well as the development of a structured digital population administration system for Mandungan I.",
         "Developed community-oriented educational materials, including a Strategic Planting Guidebook for the Women Farmers Group (KWT) and visual waste-management campaigns to support food security and environmental awareness.",
@@ -191,7 +193,9 @@ const PORTFOLIO = {
       period: "Sep 2025–present",
       role: "Freelance Mathematics Private Tutor",
       organization: "Online • SD, SMP & SMA students",
+      image: "assets/images/Tutor.png",
       icon: "tutor",
+      softSkills: ["Patience", "Empathy", "Clear Communication", "Adaptability", "Mentoring"],
       bullets: [
         "Delivered personalized online mathematics tutoring for elementary, junior high, and high school students, focusing on strengthening fundamental algebra skills and improving academic performance through customized lesson plans."
       ]

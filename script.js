@@ -93,11 +93,21 @@ $("heroActions").innerHTML = heroActions.join("");
   };
   $("communityGrid").innerHTML = PORTFOLIO.community.map(item => `
     <article class="community-card">
-      <div class="community-icon">${communityIcons[item.icon] || communityIcons.community}</div>
-      <div class="community-meta">${esc(item.period)}</div>
-      <h3>${esc(item.role)}</h3>
-      <div class="timeline-org">${esc(item.organization)}</div>
-      <ul>${item.bullets.map(b => `<li>${esc(b)}</li>`).join("")}</ul>
+      <img class="community-image" src="${esc(item.image)}" alt="${esc(item.role)} activity" loading="lazy">
+      <div class="community-card-body">
+        <div class="community-card-heading">
+          <div class="community-icon">${communityIcons[item.icon] || communityIcons.community}</div>
+          <div>
+            <div class="community-meta">${esc(item.period)}</div>
+            <h3>${esc(item.role)}</h3>
+          </div>
+        </div>
+        <div class="timeline-org">${esc(item.organization)}</div>
+        <ul>${item.bullets.map(b => `<li>${esc(b)}</li>`).join("")}</ul>
+        <div class="soft-skills" aria-label="Soft skills">
+          ${item.softSkills.map(skill => `<span class="soft-skill">${esc(skill)}</span>`).join("")}
+        </div>
+      </div>
     </article>
   `).join("");
 
