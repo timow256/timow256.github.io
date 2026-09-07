@@ -85,20 +85,25 @@ const PORTFOLIO = {
     },
 
     {
-      title: "Conveyor Monitoring & Safety Control",
+      title: "Steel Industry Energy Consumption Analysis & Prediction",
       year: "",
-      category: "Embedded Systems • Monitoring • Full Stack",
+      category: "Data Analysis • Machine Learning • Energy",
       summary:
-        "Built a monitoring concept that connected a Raspberry Pi-based hardware layer with a web interface for real-time operating data and control.",
+        "Analyzed 35K industrial energy records using Python to uncover consumption patterns and predict electricity usage with multiple linear regression.",
       highlights: [
-        "Integrated sensor and operating-status data into a browser-based monitoring interface.",
-        "Implemented start, stop, reset, manual-override, and automatic-shutdown logic.",
-        "Worked across Raspberry Pi/Flask, backend services, and a React-based frontend.",
-        "Used threshold-based rules to support safe equipment shutdown when abnormal conditions were detected."
+        "Explored the Steel Industry Energy Consumption dataset from Daewoo Steel Co., Ltd., South Korea, removing 81 duplicates from 35,040 records across 11 columns to retain 34,959 records.",
+        "Visualized consumption patterns and used Pearson correlation analysis to examine relationships with reactive power, power factor, load type, and time.",
+        "Prepared features through categorical encoding, Mutual Information feature selection, and StandardScaler scaling, using an 80:20 train-test split.",
+        "Developed a multiple linear regression model to predict Usage_kWh, achieving approximately 98% test score with an MSE of 18.33."
       ],
-      tools: ["Raspberry Pi", "Flask", "React", "Express", "MongoDB", "Sensors", "Control Logic"],
-      image: "assets/images/conveyor.png",
-      links: []
+      tools: ["Python", "Pandas", "Scikit-learn", "Data Analysis", "Data Visualization", "Machine Learning"],
+      image: "assets/images/energy.jpg",
+      links: [
+        {
+          label: "Demo Coding",
+          url: "https://www.youtube.com/watch?v=UVDHQrkW798"
+        }
+      ]
     },
 
     {
@@ -141,6 +146,23 @@ const PORTFOLIO = {
       ],
       tools: ["PSoC", "ESP32", "UART", "WebSocket", "Embedded C", "CSV Logging"],
       image: "assets/images/comm.png",
+      links: []
+    },
+
+    {
+      title: "Conveyor Monitoring & Safety Control",
+      year: "",
+      category: "Embedded Systems • Monitoring • Full Stack",
+      summary:
+        "Built a monitoring concept that connected a Raspberry Pi-based hardware layer with a web interface for real-time operating data and control.",
+      highlights: [
+        "Integrated sensor and operating-status data into a browser-based monitoring interface.",
+        "Implemented start, stop, reset, manual-override, and automatic-shutdown logic.",
+        "Worked across Raspberry Pi/Flask, backend services, and a React-based frontend.",
+        "Used threshold-based rules to support safe equipment shutdown when abnormal conditions were detected."
+      ],
+      tools: ["Raspberry Pi", "Flask", "React", "Express", "MongoDB", "Sensors", "Control Logic"],
+      image: "assets/images/conveyor.png",
       links: []
     }
   ],

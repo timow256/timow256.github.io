@@ -59,7 +59,7 @@ $("heroActions").innerHTML = heroActions.join("");
     const tags = project.tools.map(t => `<span class="tag">${esc(t)}</span>`).join("");
     const highlights = project.highlights.map(h => `<li>${esc(h)}</li>`).join("");
     const links = (project.links || []).length
-      ? `<div class="project-links">${project.links.map(link => `<a href="${esc(link.url)}" target="_blank" rel="noreferrer">${esc(link.label)} ↗</a>`).join("")}</div>`
+      ? `<div class="project-links">${project.links.map(link => `<a href="${esc(link.url)}" target="_blank" rel="noopener noreferrer">${esc(link.label)} ↗</a>`).join("")}</div>`
       : "";
 
     return `
